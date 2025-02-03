@@ -8,17 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/post-tweet",
-      "methods": ["GET"],
+      "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "commands": {
-      "build": "npm install && npm run build"
-    }
-  }
+  ]
 }
