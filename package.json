@@ -12,7 +12,6 @@
   "dependencies": {
     "agent-twitter-client": "^0.0.18",
     "express": "^4.21.2",
-    "node-schedule": "^2.1.1",
-    "wrtc": "^0.4.7"
+    "node-schedule": "^2.1.1"
   }
 }
